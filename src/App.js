@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 import Product from "./components/product";
 
 
+
 function App() {
   return (
     <div className="App">
