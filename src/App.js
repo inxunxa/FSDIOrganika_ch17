@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
+
+import NavBar from "./components/navBar";
+import Footer from "./components/footer";
+import Product from "./components/product";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar></NavBar>
+
+      <h1>Our Amazing Catalog</h1>
+
+      <Product></Product>
+      <Product></Product>
+      <Product></Product>
+      <Product></Product>
+      <Product></Product>
+      <Product></Product>    
+
+      <Footer></Footer>
     </div>
   );
 }
