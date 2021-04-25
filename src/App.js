@@ -4,8 +4,7 @@ import "font-awesome/css/font-awesome.min.css";
 
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
-import Product from "./components/product";
-
+import Catalog from "./components/catalog";
 
 
 function App() {
@@ -13,15 +12,7 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
 
-      <h1>Our Amazing Catalog</h1>
-
-      <Product></Product>
-
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
+      <Catalog></Catalog>
 
       <Footer></Footer>
     </div>
