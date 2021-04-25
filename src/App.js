@@ -16,11 +16,12 @@ function App() {
       <h1>Our Amazing Catalog</h1>
 
       <Product></Product>
+
       <Product></Product>
       <Product></Product>
       <Product></Product>
       <Product></Product>
-      <Product></Product>    
+      <Product></Product>
 
       <Footer></Footer>
     </div>
