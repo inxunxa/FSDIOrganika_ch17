@@ -5,6 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import Catalog from "./components/catalog";
+import TodoApp from "./components/todo";
 
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
       <NavBar></NavBar>
 
       <Catalog></Catalog>
+
+      <hr />
+      <TodoApp></TodoApp>
 
       <Footer></Footer>
     </div>
